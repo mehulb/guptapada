@@ -16,6 +16,9 @@
 		2811CBE025AE3A9800F789B7 /* words_dictionary.json in Resources */ = {isa = PBXBuildFile; fileRef = 2811CBDF25AE3A9800F789B7 /* words_dictionary.json */; };
 		2811CBE925AEA42200F789B7 /* words.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 2811CBE725AEA2C300F789B7 /* words.sqlite3 */; };
 		2811CBEC25AEB20600F789B7 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811CBEB25AEB20600F789B7 /* WindowController.swift */; };
+		2811CC0225B0B91500F789B7 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811CC0125B0B91500F789B7 /* PasswordGenerator.swift */; };
+		2811CC0525B0B93400F789B7 /* PasswordConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811CC0425B0B93400F789B7 /* PasswordConfiguration.swift */; };
+		2811CC0825B0D20B00F789B7 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811CC0725B0D20A00F789B7 /* FlatButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		2811CBDF25AE3A9800F789B7 /* words_dictionary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words_dictionary.json; sourceTree = "<group>"; };
 		2811CBE725AEA2C300F789B7 /* words.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = words.sqlite3; sourceTree = "<group>"; };
 		2811CBEB25AEB20600F789B7 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		2811CC0125B0B91500F789B7 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		2811CC0425B0B93400F789B7 /* PasswordConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConfiguration.swift; sourceTree = "<group>"; };
+		2811CC0725B0D20A00F789B7 /* FlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +88,14 @@
 		2811CBD725AE39D100F789B7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2811CC0725B0D20A00F789B7 /* FlatButton.swift */,
 				2811CBC025AE334500F789B7 /* AppDelegate.swift */,
 				2811CBEB25AEB20600F789B7 /* WindowController.swift */,
 				2811CBC225AE334500F789B7 /* ViewController.swift */,
 				2811CBC625AE334700F789B7 /* Main.storyboard */,
 				2811CBDB25AE3A4000F789B7 /* DBManager.swift */,
+				2811CC0125B0B91500F789B7 /* PasswordGenerator.swift */,
+				2811CC0425B0B93400F789B7 /* PasswordConfiguration.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -181,7 +190,10 @@
 				2811CBC325AE334500F789B7 /* ViewController.swift in Sources */,
 				2811CBEC25AEB20600F789B7 /* WindowController.swift in Sources */,
 				2811CBDC25AE3A4000F789B7 /* DBManager.swift in Sources */,
+				2811CC0225B0B91500F789B7 /* PasswordGenerator.swift in Sources */,
+				2811CC0825B0D20B00F789B7 /* FlatButton.swift in Sources */,
 				2811CBC125AE334500F789B7 /* AppDelegate.swift in Sources */,
+				2811CC0525B0B93400F789B7 /* PasswordConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
