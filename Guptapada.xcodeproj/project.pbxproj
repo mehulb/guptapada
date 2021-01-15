@@ -19,6 +19,7 @@
 		2811CC0225B0B91500F789B7 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811CC0125B0B91500F789B7 /* PasswordGenerator.swift */; };
 		2811CC0525B0B93400F789B7 /* PasswordConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811CC0425B0B93400F789B7 /* PasswordConfiguration.swift */; };
 		2811CC0825B0D20B00F789B7 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2811CC0725B0D20A00F789B7 /* FlatButton.swift */; };
+		28C36F1425B2090D005B710D /* OGSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C36F1325B2090D005B710D /* OGSwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		2811CC0125B0B91500F789B7 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 		2811CC0425B0B93400F789B7 /* PasswordConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordConfiguration.swift; sourceTree = "<group>"; };
 		2811CC0725B0D20A00F789B7 /* FlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
+		28C36F1325B2090D005B710D /* OGSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGSwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		2811CBD625AE39C000F789B7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2811CBC625AE334700F789B7 /* Main.storyboard */,
 				2811CBE725AEA2C300F789B7 /* words.sqlite3 */,
 				2811CBDF25AE3A9800F789B7 /* words_dictionary.json */,
 			);
@@ -88,11 +91,11 @@
 		2811CBD725AE39D100F789B7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				28C36F1325B2090D005B710D /* OGSwitch.swift */,
 				2811CC0725B0D20A00F789B7 /* FlatButton.swift */,
 				2811CBC025AE334500F789B7 /* AppDelegate.swift */,
 				2811CBEB25AEB20600F789B7 /* WindowController.swift */,
 				2811CBC225AE334500F789B7 /* ViewController.swift */,
-				2811CBC625AE334700F789B7 /* Main.storyboard */,
 				2811CBDB25AE3A4000F789B7 /* DBManager.swift */,
 				2811CC0125B0B91500F789B7 /* PasswordGenerator.swift */,
 				2811CC0425B0B93400F789B7 /* PasswordConfiguration.swift */,
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2811CBC325AE334500F789B7 /* ViewController.swift in Sources */,
+				28C36F1425B2090D005B710D /* OGSwitch.swift in Sources */,
 				2811CBEC25AEB20600F789B7 /* WindowController.swift in Sources */,
 				2811CBDC25AE3A4000F789B7 /* DBManager.swift in Sources */,
 				2811CC0225B0B91500F789B7 /* PasswordGenerator.swift in Sources */,
