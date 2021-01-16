@@ -724,10 +724,10 @@
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EEo-Yf-FMu">
-                                                    <rect key="frame" x="15" y="69" width="276" height="16"/>
+                                                    <rect key="frame" x="15" y="69" width="272" height="15"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                     <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" title="Generate a                                 password with" id="257-AV-cYl">
-                                                        <font key="font" metaFont="system"/>
+                                                        <font key="font" size="13" name="HelveticaNeue"/>
                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                     </textFieldCell>
@@ -746,7 +746,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                     <popUpButtonCell key="cell" type="roundTextured" title="-" bezelStyle="texturedRounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="border" focusRingType="none" inset="2" selectedItem="Hvz-AJ-BzR" id="GzN-BW-VLU">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                                        <font key="font" metaFont="system"/>
+                                                        <font key="font" metaFont="menu"/>
                                                         <menu key="menu" id="6IR-v6-0rf">
                                                             <items>
                                                                 <menuItem title="-" state="on" id="Hvz-AJ-BzR"/>
